@@ -11,6 +11,18 @@
                 <li>
                     <router-link to="/cine">Cine</router-link>
                 </li>
+                <li>
+                    <router-link to="/hooks">Hooks</router-link>
+                </li>
+                <li>
+                    <router-link to="/directivas">Directivas</router-link>
+                </li>
+                <li>
+                    <router-link to="/conmutada">Conmutada</router-link>
+                </li>
+                <li>
+                    <router-link to="/filter">Filtro</router-link>
+                </li>
             </ul>
         </nav>
     </div>
@@ -25,5 +37,6 @@ export default {
 <style scoped>
 ul#menu li {
     display: inline;
+    margin-left:2%;
 }
 </style>
